@@ -1,0 +1,12 @@
+
+FinanceLibrary\.Tests/bin/Debug/
+
+packages/
+
+\.vs/
+
+FinanceLibrary/bin/
+
+FinanceLibrary/obj/
+
+FinanceLibrary\.Tests/obj/
