@@ -1,5 +1,6 @@
 ﻿using FinanceLibrary.Model;
 using FinanceLibrary.Services;
+using Moq;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,7 @@ namespace FinanceLibrary.Tests.Service
     [TestFixture]
     public class CouponCalculationServiceTests
     {
+     
 
         private ICouponCalculationService GetSUT()
         {
