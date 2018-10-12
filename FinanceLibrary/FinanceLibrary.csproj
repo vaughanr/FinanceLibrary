@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculations\PresentValue.cs" />
+    <Compile Include="Model\Calculations\ScalarValue.cs" />
     <Compile Include="Model\Discount\DiscountFactor.cs" />
     <Compile Include="Model\Instruments\Bond.cs" />
     <Compile Include="Model\Instruments\CashFlow.cs" />
@@ -48,6 +50,7 @@
     <Compile Include="Model\Instruments\IInstrument.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\CouponCalculationService.cs" />
+    <Compile Include="Services\CurveSource.cs" />
     <Compile Include="Services\DiscountingService.cs" />
     <Compile Include="Services\ICouponCalculationService.cs" />
     <Compile Include="Services\ICurveSource.cs" />

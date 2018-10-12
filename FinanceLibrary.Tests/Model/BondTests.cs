@@ -20,7 +20,7 @@ namespace FinanceLibrary.Tests.Model
         [Test]
         public void one_year_semi_anual_bond_has_2_cashflows()
         {
-            var bond = new Bond(GetCouponService(), new DateTime(2018, 4, 1), 1, CouponType.SemiAnnual, 100, "ZAR", 0.05m);
+            var bond = new Bond(GetCouponService(), new DateTime(2018, 4, 10), 1, CouponType.SemiAnnual, 100, "ZAR", 0.05m);
 
             var cashflows = bond.GetCashflows().ToList();
 
